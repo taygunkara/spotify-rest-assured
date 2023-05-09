@@ -40,7 +40,7 @@ public class PlaylistTests {
 
         String payload = "{\n" +
                 "    \"name\": \"New Playlist\",\n" +
-                "    \"description\": \"New playlist description\",\n" +
+                "    \"description\": \"New description\",\n" +
                 "    \"public\": false\n" +
                 "}";
 
@@ -53,7 +53,23 @@ public class PlaylistTests {
                 .assertThat()
                 .statusCode(201)
                 .body("name", equalTo("New Playlist"),
-                        "description", equalTo("New playlist description"),
+                        "description", equalTo("New description"),
+                        "public", equalTo(false));
+
+    }
+
+    @Test
+    public void ShouldBeAbleToGetPlaylist(){
+
+        given(requestSpecification)
+                .when()
+                .get("/playlists/1seHyWwxKI3Vwpeo2HOEbN")
+                .then()
+                .spec(responseSpecification)
+                .assertThat()
+                .statusCode(200)
+                .body("name", equalTo("New Playlist"),
+                        "description", equalTo("New description"),
                         "public", equalTo(false));
 
     }

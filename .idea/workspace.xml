@@ -4,12 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="073918e7-7ee7-48ed-8f37-502686c5ddc7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="073918e7-7ee7-48ed-8f37-502686c5ddc7" name="Changes" comment="SpecBuilders, ShouldBeAbleToCreateAPlaylist">
+      <change afterPath="$PROJECT_DIR$/allure-results/002315ff-c406-43e3-be8b-799fff7715a8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/02d6d5b3-7487-451e-9f50-633a3441a42d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/03bda1ab-7533-4778-b8ba-327a0ccfb18d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0edb4354-164c-456c-90fa-20d96921e50b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/171ce1dd-a8d3-4955-b571-3f50de46611f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/191dd36d-6e0f-4753-8900-0b28781ee705-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/28eeabc0-cd50-473f-ab50-639ee5b3b324-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2a05e248-755e-4409-a2f4-378b1f5cc587-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3004e987-149d-4a36-9ed6-1381ee1b6065-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3a05cdc5-dd86-4af2-94d2-63aee05427f8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3b45e298-a6f7-4c27-9e9b-9385f29bea55-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5e2b9305-2153-4fc7-aa77-15120a02994f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/606787d9-8864-414b-9249-40bd1197ddc7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/613ec7c3-3fbb-48bc-88ce-f3fd8b8b87ef-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/66145c30-d313-4ba5-9a7c-f9c5e9838a2e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6d248e6e-993e-464e-a3cf-b589984af748-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/79416cf1-70d8-4f77-a0d9-13100701d226-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/844b2342-52ed-44d8-97ce-0e1268951854-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/959631ec-700c-4e90-91b2-4fc11b644400-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/96b0f803-8a9a-481c-9b0b-21590f712765-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/97623b49-e0de-4845-a7da-70ba9f0398eb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a71b2946-3997-45ee-9a1b-678ad8dcca6b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bcdf1076-e6f0-4b07-bb4b-70e408e89722-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c252daa6-e114-48f1-aac5-2a5667ee6863-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cc93182c-ce53-4e1c-8720-47cd6478699d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cdaf5fd4-8754-4984-80e2-6c4135ac02b1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ce6e0aa1-9895-4563-adaf-3a1998c8d5c7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d28d00af-ec65-42af-b1de-a859b940a253-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d5bed1d0-68f7-4f91-86eb-4f051ba8fd36-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dbdb7ac9-b099-4c22-8056-9164a315ea33-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e2b7681e-efdc-40eb-b764-07e03ec1c3a1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e52a9933-3321-4cf1-898a-3f5d2f51c93a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e799bf75-7eec-429d-9e2d-4948aa78658b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f50fd170-6df9-42c1-8ce4-0e69d3f26748-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f84325cb-00dc-4e2f-87d2-8a4e2197e0ae-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fe1920fd-280a-474f-b82f-ed63bf420a6b-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/spotify/oauth2/tests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/spotify/oauth2/tests/PlaylistTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,17 +66,20 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2PY3ZBLRaAMD0j2bcYtk0NvJmHs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.PlaylistTests.ShouldBeAbleToGetPlaylist">
     <configuration name="PlaylistTests.ShouldBeAbleToCreateAPlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="spotify-rest-assured" />
       <extension name="coverage">
@@ -63,8 +98,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlaylistTests.ShouldBeAbleToGetPlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="spotify-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToGetPlaylist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToGetPlaylist" />
         <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToCreateAPlaylist" />
       </list>
     </recent_temporary>
@@ -78,6 +132,19 @@
       <option name="presentableId" value="Default" />
       <updated>1683541568674</updated>
     </task>
+    <task id="LOCAL-00001" summary="SpecBuilders, ShouldBeAbleToCreateAPlaylist">
+      <created>1683631823818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683631823818</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="SpecBuilders, ShouldBeAbleToCreateAPlaylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpecBuilders, ShouldBeAbleToCreateAPlaylist" />
   </component>
 </project>
