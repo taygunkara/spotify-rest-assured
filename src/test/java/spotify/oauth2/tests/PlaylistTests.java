@@ -39,7 +39,7 @@ public class PlaylistTests {
 
         String payload = "{\n" +
                 "    \"name\": \"New Playlist\",\n" +
-                "    \"description\": \"ddddddddescription\",\n" +
+                "    \"description\": \"New playlist description\",\n" +
                 "    \"public\": false\n" +
                 "}";
 
@@ -52,7 +52,7 @@ public class PlaylistTests {
                 .assertThat()
                 .statusCode(201)
                 .body("name", equalTo("New Playlist"),
-                        "description", equalTo("ddddddddescription"),
+                        "description", equalTo("New playlist description"),
                         "public", equalTo(false));
 
     }
@@ -68,27 +68,74 @@ public class PlaylistTests {
                 .assertThat()
                 .statusCode(200)
                 .body("name", equalTo("New Playlist"),
-                        "description", equalTo("ddddddddescription"),
+                        "description", equalTo("New playlist description"),
                         "public", equalTo(false));
 
     }
     @Test
     public void ShouldBeAbleToUpdate(){
 
-        String updatedBody = "{\n" +
+        String payload = "{\n" +
                 "    \"name\": \"Updated Playlist Name\",\n" +
                 "    \"description\": \"Updated playlist description\",\n" +
                 "    \"public\": false\n" +
                 "}";
 
         given(requestSpecification)
-                .body(updatedBody)
+                .body(payload)
                 .when()
                 .put("/playlists/7wtmZ1I1XDWMQPcqXPVB0N")
                 .then()
                 .spec(responseSpecification)
                 .assertThat()
                 .statusCode(200);
+    }
+
+    @Test
+    public void ShouldNotBeAbleToCreateAPlaylistWithName(){
+        String payload = "{\n" +
+                "    \"description\": \"New playlist description\",\n" +
+                "    \"public\": false\n" +
+                "}";
+
+        given(requestSpecification)
+                .body(payload)
+                .when()
+                .post("/users/kara.taygun/playlists")
+                .then()
+                .spec(responseSpecification)
+                .assertThat()
+                .statusCode(400)
+                .body("error.status", equalTo(400),
+                        "error.message", equalTo("Missing required field: name"));
+    }
+
+    @Test
+    public void ShouldNotBeAbleToCreateAPlaylistWithExpiredToken(){
+        String payload = "{\n" +
+                "    \"name\": \"New Playlist\",\n" +
+                "    \"description\": \"New playlist description\",\n" +
+                "    \"public\": false\n" +
+                "}";
+
+        String expired_access_token = "QA2KRNy4ClSwhwK1uWZwDucmqjmHavddUloSerfN8DecPS_AOSRIbUPx5FTkA410l2KsnfcytPD-NLhpZ_0Sc5Vl_ak-PiP8eLYem6wYhGnSjy869w_SYgrKyiRbMDZboHLJBT73fyNTmCpLjVeb8mhzEhPMUBlHswtWD9oHmTTsPmgPDVMlHA6PVckdzNasGBx4tpp4klAnQCBuY8Hdq_lPKsvptfOUmsug-y1oCis0JGyr5-7IhMh1c0vcts";
+
+
+        given()
+                .baseUri("https://api.spotify.com")
+                .basePath("/v1")
+                .header("Authorization", "Bearer " + expired_access_token)
+                .contentType(ContentType.JSON)
+                .log().all()
+                .body(payload)
+                .when()
+                .post("/users/kara.taygun/playlists")
+                .then()
+                .spec(responseSpecification)
+                .assertThat()
+                .statusCode(401)
+                .body("error.status", equalTo(401),
+                        "error.message", equalTo("Invalid access token"));
     }
 
 
