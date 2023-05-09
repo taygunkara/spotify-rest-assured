@@ -4,43 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="073918e7-7ee7-48ed-8f37-502686c5ddc7" name="Changes" comment="SpecBuilders, ShouldBeAbleToCreateAPlaylist">
-      <change afterPath="$PROJECT_DIR$/allure-results/002315ff-c406-43e3-be8b-799fff7715a8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/02d6d5b3-7487-451e-9f50-633a3441a42d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/03bda1ab-7533-4778-b8ba-327a0ccfb18d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0edb4354-164c-456c-90fa-20d96921e50b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/171ce1dd-a8d3-4955-b571-3f50de46611f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/191dd36d-6e0f-4753-8900-0b28781ee705-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/28eeabc0-cd50-473f-ab50-639ee5b3b324-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2a05e248-755e-4409-a2f4-378b1f5cc587-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3004e987-149d-4a36-9ed6-1381ee1b6065-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3a05cdc5-dd86-4af2-94d2-63aee05427f8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3b45e298-a6f7-4c27-9e9b-9385f29bea55-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5e2b9305-2153-4fc7-aa77-15120a02994f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/606787d9-8864-414b-9249-40bd1197ddc7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/613ec7c3-3fbb-48bc-88ce-f3fd8b8b87ef-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/66145c30-d313-4ba5-9a7c-f9c5e9838a2e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6d248e6e-993e-464e-a3cf-b589984af748-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/79416cf1-70d8-4f77-a0d9-13100701d226-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/844b2342-52ed-44d8-97ce-0e1268951854-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/959631ec-700c-4e90-91b2-4fc11b644400-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/96b0f803-8a9a-481c-9b0b-21590f712765-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/97623b49-e0de-4845-a7da-70ba9f0398eb-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a71b2946-3997-45ee-9a1b-678ad8dcca6b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bcdf1076-e6f0-4b07-bb4b-70e408e89722-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c252daa6-e114-48f1-aac5-2a5667ee6863-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cc93182c-ce53-4e1c-8720-47cd6478699d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cdaf5fd4-8754-4984-80e2-6c4135ac02b1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ce6e0aa1-9895-4563-adaf-3a1998c8d5c7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d28d00af-ec65-42af-b1de-a859b940a253-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d5bed1d0-68f7-4f91-86eb-4f051ba8fd36-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/dbdb7ac9-b099-4c22-8056-9164a315ea33-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e2b7681e-efdc-40eb-b764-07e03ec1c3a1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e52a9933-3321-4cf1-898a-3f5d2f51c93a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e799bf75-7eec-429d-9e2d-4948aa78658b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f50fd170-6df9-42c1-8ce4-0e69d3f26748-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f84325cb-00dc-4e2f-87d2-8a4e2197e0ae-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fe1920fd-280a-474f-b82f-ed63bf420a6b-container.json" afterDir="false" />
+    <list default="true" id="073918e7-7ee7-48ed-8f37-502686c5ddc7" name="Changes" comment="ShouldBeAbleToGetPlaylist">
+      <change afterPath="$PROJECT_DIR$/allure-results/08b38324-2f60-430e-90cc-aec52f4464b9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/15dd038f-9ce3-4e7b-9e75-eb5a792bad40-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/24017f30-fc68-474e-bffa-7a23bb78bd23-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/29229be4-9032-4e74-a107-5ea7a60b0d23-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3c41d706-70f0-40cf-afa6-164c464210ce-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3e6c26f7-8168-48b9-8630-23eeb9055504-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5615f239-cef0-4a05-870e-83cab01743df-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/56345bb2-c308-44bf-b039-f7f0f273cdf5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/57f919ca-c188-4f40-9616-bf0d5a7f4561-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/589793a0-996d-45ab-abf3-5520b3af3cac-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5ce6bd25-926b-407d-818a-ece8356c5401-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6829cfbd-effd-4631-aa0f-4de7c10a16a2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6cfbdc76-87b0-480d-9a0b-69b9fb7dd475-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/72d3c6df-9531-4ec7-93a7-978c4e9dda6d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/73f8cc35-8352-4753-ba42-bc7f15e3f902-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8b0cf615-2112-47ee-a295-1176d9846372-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8ddef7a6-ce8b-42cf-9fed-bf60ed3560d5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8f4cba60-c77f-42e0-9ff0-c25acc755b06-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/916f43fe-215a-4932-b622-b6dafe72dcd6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/94444ab4-56b4-4e4c-90f0-786a032ff9b8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9cb64456-1516-4bf9-a628-ab92f50d00d8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a4acee65-4b78-4bc6-a602-fc14d11e2fae-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a5a200cf-b3ee-4a70-8ad7-b3de1d5dcd00-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a9d958b3-8ad5-4eb0-bad6-9f96fadd03d5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ac7ff60f-a411-4221-9856-8ba982138a36-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b0e3ee19-89c8-4c85-8c77-1b62599f3e46-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b14a4c62-3e64-4815-8d6b-60c32631e9fa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bcef63c2-f2da-4cb8-b063-014cc229f87b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c0d4d1ff-022c-4099-b99e-e32d5679d60b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ce632362-7bea-43a7-81d7-8b9a66a839b9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f6a6b318-95f6-4001-b4cb-fe242c271f7d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f7b944d7-36ee-4bf3-b9ba-253bfdeb4811-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/spotify/oauth2/tests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/spotify/oauth2/tests/PlaylistTests.java" afterDir="false" />
     </list>
@@ -79,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.PlaylistTests.ShouldBeAbleToGetPlaylist">
+  <component name="RunManager" selected="TestNG.PlaylistTests.ShouldBeAbleToUpdate">
     <configuration name="PlaylistTests.ShouldBeAbleToCreateAPlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="spotify-rest-assured" />
       <extension name="coverage">
@@ -116,8 +112,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlaylistTests.ShouldBeAbleToUpdate" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="spotify-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToUpdate" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToUpdate" />
         <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToGetPlaylist" />
         <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToCreateAPlaylist" />
       </list>
@@ -139,12 +154,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683631823818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ShouldBeAbleToGetPlaylist">
+      <created>1683632679999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683632679999</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="SpecBuilders, ShouldBeAbleToCreateAPlaylist" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpecBuilders, ShouldBeAbleToCreateAPlaylist" />
+    <MESSAGE value="ShouldBeAbleToGetPlaylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShouldBeAbleToGetPlaylist" />
   </component>
 </project>

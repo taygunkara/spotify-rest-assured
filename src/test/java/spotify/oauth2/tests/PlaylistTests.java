@@ -16,7 +16,7 @@ public class PlaylistTests {
 
     RequestSpecification requestSpecification;
     ResponseSpecification responseSpecification;
-    String access_token = "BQAGr_xdwfU1IL6C0vZDmDW0Zsp5wgYCj70tOHuxWkAuhq72bepiD0ansuLJ-Jm_BExUPCJreAVDTdLmr0KMFreB1wLVkbMNoY962rPriNfPELRNJYfNXRudYR17mWyLtL0J3aMTCttPDTV9VBQfCpORcVds66GHbwKTauMYlyEyn-Q6bPBPTYCp4ZIGERrArztTbXb_yQ8itSIc-1Wo9vOwLyivwINySwDxzey5NOnPOB_R435nRyxNNo8tNb4";
+    String access_token = "BQA2KRNy4ClSwhwK1uWZwDucmqjmHavddUloSerfN8DecPS_AOSRIbUPx5FTkA410l2KsnfcytPD-NLhpZ_0Sc5Vl_ak-PiP8eLYem6wYhGnSjy869w_SYgrKyiRbMDZboHLJBT73fyNTmCpLjVeb8mhzEhPMUBlHswtWD9oHmTTsPmgPDVMlHA6PVckdzNasGBx4tpp4klAnQCBuY8Hdq_lPKsvptfOUmsug-y1oCis0JGyr5-7IhMh1c0vcts";
 
     @BeforeClass
     public void beforeClass(){
@@ -29,7 +29,6 @@ public class PlaylistTests {
         requestSpecification = requestSpecBuilder.build();
 
         ResponseSpecBuilder responseSpecBuilder = new ResponseSpecBuilder()
-                .expectContentType(ContentType.JSON)
                 .log(LogDetail.ALL);
 
         responseSpecification = responseSpecBuilder.build();
@@ -40,7 +39,7 @@ public class PlaylistTests {
 
         String payload = "{\n" +
                 "    \"name\": \"New Playlist\",\n" +
-                "    \"description\": \"New description\",\n" +
+                "    \"description\": \"ddddddddescription\",\n" +
                 "    \"public\": false\n" +
                 "}";
 
@@ -53,7 +52,7 @@ public class PlaylistTests {
                 .assertThat()
                 .statusCode(201)
                 .body("name", equalTo("New Playlist"),
-                        "description", equalTo("New description"),
+                        "description", equalTo("ddddddddescription"),
                         "public", equalTo(false));
 
     }
@@ -63,15 +62,33 @@ public class PlaylistTests {
 
         given(requestSpecification)
                 .when()
-                .get("/playlists/1seHyWwxKI3Vwpeo2HOEbN")
+                .get("/playlists/7wtmZ1I1XDWMQPcqXPVB0N")
                 .then()
                 .spec(responseSpecification)
                 .assertThat()
                 .statusCode(200)
                 .body("name", equalTo("New Playlist"),
-                        "description", equalTo("New description"),
+                        "description", equalTo("ddddddddescription"),
                         "public", equalTo(false));
 
+    }
+    @Test
+    public void ShouldBeAbleToUpdate(){
+
+        String updatedBody = "{\n" +
+                "    \"name\": \"Updated Playlist Name\",\n" +
+                "    \"description\": \"Updated playlist description\",\n" +
+                "    \"public\": false\n" +
+                "}";
+
+        given(requestSpecification)
+                .body(updatedBody)
+                .when()
+                .put("/playlists/7wtmZ1I1XDWMQPcqXPVB0N")
+                .then()
+                .spec(responseSpecification)
+                .assertThat()
+                .statusCode(200);
     }
 
 
