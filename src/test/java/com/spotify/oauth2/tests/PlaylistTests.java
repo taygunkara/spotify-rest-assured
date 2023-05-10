@@ -1,7 +1,6 @@
 package com.spotify.oauth2.tests;
 
 import com.spotify.oauth2.models.Error;
-import com.spotify.oauth2.models.InnerRoot;
 import com.spotify.oauth2.models.Playlist;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -41,10 +40,10 @@ public class PlaylistTests {
     @Test
     public void ShouldBeAbleToCreateAPlaylist(){
 
-        Playlist requestPlaylist = new Playlist();
-        requestPlaylist.setName("New Playlist");
-        requestPlaylist.setDescription("New playlist description");
-        requestPlaylist.setPublic(false);
+        Playlist requestPlaylist = new Playlist()
+                .setName("New Playlist")
+                .setDescription("New playlist description")
+                .setPublic(false);
 
         Playlist responsePlaylist = given(requestSpecification)
                 .body(requestPlaylist)
@@ -66,10 +65,10 @@ public class PlaylistTests {
     @Test
     public void ShouldBeAbleToGetPlaylist(){
 
-        Playlist requestPlaylist = new Playlist();
-        requestPlaylist.setName("New Playlist");
-        requestPlaylist.setDescription("New playlist description");
-        requestPlaylist.setPublic(false);
+        Playlist requestPlaylist = new Playlist()
+                .setName("New Playlist")
+                .setDescription("New playlist description")
+                .setPublic(false);
 
         Playlist responsePlaylist = given(requestSpecification)
                 .when()
@@ -91,10 +90,10 @@ public class PlaylistTests {
     @Test
     public void ShouldBeAbleToUpdate(){
 
-        Playlist requestPlaylist = new Playlist();
-        requestPlaylist.setName("Updated Playlist Name");
-        requestPlaylist.setDescription("Updated playlist description");
-        requestPlaylist.setPublic(false);
+        Playlist requestPlaylist = new Playlist()
+                .setName("Updated Playlist Name")
+                .setDescription("Updated playlist description")
+                .setPublic(false);
 
         given(requestSpecification)
                 .body(requestPlaylist)
@@ -111,10 +110,10 @@ public class PlaylistTests {
     public void ShouldNotBeAbleToCreateAPlaylistWithName(){
 
 
-        Playlist requestPlaylist = new Playlist();
-        requestPlaylist.setName("");
-        requestPlaylist.setDescription("New playlist description");
-        requestPlaylist.setPublic(false);
+        Playlist requestPlaylist = new Playlist()
+                .setName("")
+                .setDescription("Updated playlist description")
+                .setPublic(false);
 
 
          Error error = given(requestSpecification)
@@ -138,10 +137,10 @@ public class PlaylistTests {
     @Test
     public void ShouldNotBeAbleToCreateAPlaylistWithExpiredToken(){
 
-        Playlist requestPlaylist = new Playlist();
-        requestPlaylist.setName("New Playlist");
-        requestPlaylist.setDescription("New playlist description");
-        requestPlaylist.setPublic(false);
+        Playlist requestPlaylist = new Playlist()
+                .setName("Updated Playlist Name")
+                .setDescription("Updated playlist description")
+                .setPublic(false);
 
         String expired_access_token = "QA2KRNy4ClSwhwK1uWZwDucmqjmHavddUloSerfN8DecPS_AOSRIbUPx5FTkA410l2KsnfcytPD-NLhpZ_0Sc5Vl_ak-PiP8eLYem6wYhGnSjy869w_SYgrKyiRbMDZboHLJBT73fyNTmCpLjVeb8mhzEhPMUBlHswtWD9oHmTTsPmgPDVMlHA6PVckdzNasGBx4tpp4klAnQCBuY8Hdq_lPKsvptfOUmsug-y1oCis0JGyr5-7IhMh1c0vcts";
 
