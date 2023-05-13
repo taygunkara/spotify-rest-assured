@@ -18,15 +18,7 @@ public class TokenManager {
         formParams.put("grant_type", "refresh_token");
         formParams.put("refresh_token", "AQBQvsqPCzJszh9dcwsbEHplWmp8FbRX1G6BM7SEHzjJ9ufFArWaCy0XXQMdcr8GUP-HZyC-F6oLRHDkFf0xENGDdWyghGtsWrHSHVJaOBOVg5jWmTkGl1PLLjpaV18zhyw");
 
-        Response response = given()
-                .baseUri("https://accounts.spotify.com/api")
-                .contentType(ContentType.URLENC)
-                .formParams(formParams)
-                .when()
-                .post("/token")
-                .then().spec(getResponseSpec())
-                .extract().response();
-
+        Response response = RestResource.postAccount(formParams);
         return response.path("access_token");
 
     }
