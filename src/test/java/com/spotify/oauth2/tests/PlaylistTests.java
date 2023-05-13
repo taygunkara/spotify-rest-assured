@@ -38,7 +38,7 @@ public class PlaylistTests {
                 .setDescription("New playlist description")
                 .setPublic(false);
 
-        Response response = new PlaylistApi().get("077nSfDiPHnVjOXyru2YVE", RenewToken());
+        Response response = new PlaylistApi().get("0UGeUjJ6KVqSsmFavkWyw9", RenewToken());
         assertThat(response.statusCode(), equalTo(200));
         Playlist responsePlaylist = response.as(Playlist.class);
 
@@ -56,7 +56,7 @@ public class PlaylistTests {
                 .setDescription("Updated playlist description")
                 .setPublic(false);
 
-        Response response = new PlaylistApi().update(requestPlaylist, "077nSfDiPHnVjOXyru2YVE", RenewToken());
+        Response response = new PlaylistApi().update(requestPlaylist, "0UGeUjJ6KVqSsmFavkWyw9", RenewToken());
         assertThat(response.statusCode(), equalTo(200));
 
     }

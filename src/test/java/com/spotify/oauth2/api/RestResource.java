@@ -2,6 +2,8 @@ package com.spotify.oauth2.api;
 
 import io.restassured.response.Response;
 import java.util.HashMap;
+
+import static com.spotify.oauth2.api.Route.*;
 import static com.spotify.oauth2.api.SpecBuilder.*;
 import static io.restassured.RestAssured.given;
 
@@ -28,12 +30,12 @@ public class RestResource {
                 .response();
     }
 
-    public static Response update(String path, String playlistID, Object requestPlaylist, String token){
+    public static Response update(String path, Object requestPlaylist, String token){
         return given(getRequestSpec())
                 .body(requestPlaylist)
                 .when()
                 .header("Authorization", "Bearer " + token)
-                .put(path + playlistID)
+                .put(path)
                 .then()
                 .spec(getResponseSpec())
                 .extract()
@@ -44,7 +46,7 @@ public class RestResource {
         return given(getAccountRequestSpec())
                 .formParams(formParams)
         .when()
-                .post("/api/token")
+                .post(API + TOKEN)
         .then().spec(getResponseSpec())
                 .extract().response();
     }
