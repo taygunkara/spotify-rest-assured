@@ -11,8 +11,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
 public class PlaylistTests {
-    // static String access_token = "BQD46gYBbRoxUlRlUpiLm9uNS2zzfHGynw9wgMewrZ1_mYHCG7Maba6NVZ8zDyBJFzbkYVENl_DTzFMGMZMsLOzcwDjSt0Rq_kbuE3cIpt0tBDyXkdnJtxgsbQ4f1yPjFNSDDm7XgtdIdTptgiB2h0z_9CAUWDDQ8qOnnujo77cLfj2trqJlyss2Mk-AkLQicBYid4nWWvqgi9R__XIhmbLnVDzT--wGZAs0glTA2h4vSKBKLuNrcB2FVYjFou0";
-
 
     @Test
     public void ShouldBeAbleToCreateAPlaylist(){
@@ -40,7 +38,7 @@ public class PlaylistTests {
                 .setDescription("New playlist description")
                 .setPublic(false);
 
-        Response response = new PlaylistApi().get("6c4kJgjvkBkHiT4Qi0hHG8", RenewToken());
+        Response response = new PlaylistApi().get("077nSfDiPHnVjOXyru2YVE", RenewToken());
         assertThat(response.statusCode(), equalTo(200));
         Playlist responsePlaylist = response.as(Playlist.class);
 
@@ -58,7 +56,7 @@ public class PlaylistTests {
                 .setDescription("Updated playlist description")
                 .setPublic(false);
 
-        Response response = new PlaylistApi().update(requestPlaylist, "6c4kJgjvkBkHiT4Qi0hHG8", RenewToken());
+        Response response = new PlaylistApi().update(requestPlaylist, "077nSfDiPHnVjOXyru2YVE", RenewToken());
         assertThat(response.statusCode(), equalTo(200));
 
     }
