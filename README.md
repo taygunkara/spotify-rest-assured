@@ -15,7 +15,11 @@
 - [x] pojo
 - [x] token manager
 - [x] reusable methods
-- [ ] routes
+- [x] routes
+- [x] config 
+  - [x] property loader utility
+  - [x] config loader - singleton design pattern
+  - [ ] data loader
 - [ ] lombok
 - [ ] allure reporting
 - [ ] maven command

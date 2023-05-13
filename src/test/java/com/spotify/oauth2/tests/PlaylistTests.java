@@ -29,7 +29,6 @@ public class PlaylistTests {
         assertThat(responsePlaylist.getDescription(), equalTo(requestPlaylist.getDescription()));
         assertThat(responsePlaylist.getPublic(), equalTo(requestPlaylist.getPublic()));
     }
-
     @Test
     public void ShouldBeAbleToGetPlaylist(){
 
@@ -38,7 +37,7 @@ public class PlaylistTests {
                 .setDescription("New playlist description")
                 .setPublic(false);
 
-        Response response = new PlaylistApi().get("0UGeUjJ6KVqSsmFavkWyw9", RenewToken());
+        Response response = new PlaylistApi().get("6GKqLxUgs1RBHqFBeXMUYA", RenewToken());
         assertThat(response.statusCode(), equalTo(200));
         Playlist responsePlaylist = response.as(Playlist.class);
 
@@ -56,11 +55,10 @@ public class PlaylistTests {
                 .setDescription("Updated playlist description")
                 .setPublic(false);
 
-        Response response = new PlaylistApi().update(requestPlaylist, "0UGeUjJ6KVqSsmFavkWyw9", RenewToken());
+        Response response = new PlaylistApi().update(requestPlaylist, "6GKqLxUgs1RBHqFBeXMUYA", RenewToken());
         assertThat(response.statusCode(), equalTo(200));
 
     }
-
     @Test
     public void ShouldNotBeAbleToCreateAPlaylistWithName(){
 
@@ -79,7 +77,6 @@ public class PlaylistTests {
 
 
     }
-
     @Test
     public void ShouldNotBeAbleToCreateAPlaylistWithExpiredToken(){
 
@@ -98,5 +95,4 @@ public class PlaylistTests {
         assertThat(error.getError().getStatus(), equalTo(401));
         assertThat(error.getError().getMessage(), equalTo("Invalid access token"));
     }
-
 }
