@@ -19,11 +19,11 @@
 - [x] config 
   - [x] property loader utility
   - [x] config loader - singleton design pattern
-  - [ ] data loader
+  - [x] data loader - singleton design pattern
 - [ ] lombok
 - [ ] allure reporting
 - [ ] maven command
 - [ ] java faker
 - [ ] parallel execution
 - [ ] property loader utility
-- [ ] Cl entegration
+- [ ] Cl integration
