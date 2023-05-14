@@ -9,8 +9,7 @@ import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import static com.spotify.oauth2.api.TokenManager.RenewToken;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
+import static com.spotify.oauth2.api.applicationApi.PlaylistHelper.*;
 
 public class PlaylistTests {
 
@@ -72,27 +71,4 @@ public class PlaylistTests {
 
     }
 
-    public Playlist playlistBuilder(String name, String description, boolean _public){
-
-        return new Playlist()
-                .setName(name)
-                .setDescription(description)
-                .setPublic(_public);
-    }
-
-    public void assertPlaylistEqual(Playlist responsePlaylist, Playlist requestPlaylist){
-
-        assertThat(responsePlaylist.getName(), equalTo(requestPlaylist.getName()));
-        assertThat(responsePlaylist.getDescription(), equalTo(requestPlaylist.getDescription()));
-        assertThat(responsePlaylist.getPublic(), equalTo(requestPlaylist.getPublic()));
-    }
-
-    public void assertStatusCode(Response response, int expectedStatusCode){
-        assertThat(response.statusCode(), equalTo(expectedStatusCode));
-    }
-
-    public void assertError(Error responseErr, int expectedStatus, String msg){
-        assertThat(responseErr.getError().getStatus(), equalTo(expectedStatus));
-        assertThat(responseErr.getError().getMessage(), equalTo(msg));
-    }
 }
