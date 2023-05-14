@@ -52,4 +52,12 @@ public class ConfigLoader {
         }
         return prop;
     }
+
+    public String getInvalidToken(){
+        String prop = properties.getProperty("invalid_access_token");
+        if (prop == null) {
+            throw new RuntimeException("invalid_access_token can't find in config.property");
+        }
+        return prop;
+    }
 }

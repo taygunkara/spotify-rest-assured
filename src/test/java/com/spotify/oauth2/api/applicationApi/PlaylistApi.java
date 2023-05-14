@@ -11,7 +11,7 @@ import static com.spotify.oauth2.api.Route.*;
 public class PlaylistApi {
 
 
-    public static Response post(Playlist requestPlaylist, String token){
+    public Response post(Playlist requestPlaylist, String token){
         return RestResource.post(USERS +  "/" + ConfigLoader.getInstance().getUserID() + PLAYLISTS, token, requestPlaylist);
     }
 
