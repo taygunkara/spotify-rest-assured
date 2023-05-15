@@ -4,123 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="073918e7-7ee7-48ed-8f37-502686c5ddc7" name="Changes" comment="Negative Scenarios">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/models/ExternalUrls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/models/ExternalUrls__1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/models/Followers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/models/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/models/Playlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/models/Tracks.java" afterDir="false" />
+    <list default="true" id="073918e7-7ee7-48ed-8f37-502686c5ddc7" name="Changes" comment="README update">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/17f60ae2-622e-4a37-ad25-01991ae14d67-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1dc76664-a03a-4751-a17e-b922cbdc7ce2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/28ad01cd-a9c1-4c3f-be7a-be34dcc2f0f4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/30b310e7-765a-47cb-b183-04bcffe921c9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/64b05200-5038-463a-870e-3cdb8386967b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/662fb17a-5b3b-458c-a34d-34b5cc11559b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/81e00180-3b42-495d-a354-7645c49d51bd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8fc03a50-5057-4143-ae06-6ec5609e4951-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9dfa2564-345e-4754-acc3-a73334411749-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a3c4304f-e203-41a5-9c83-09cdecd4dcbc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a698c93b-c8d0-4d5c-8354-405e5e15d74f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c789242b-8bd9-40c7-a877-ca5d7a762044-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cc5df640-2f55-48f8-9a84-52c17d22cf64-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d720e99a-7bc7-437a-bbae-ddf4b224047c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e2a3ee89-5bd2-48b3-9d05-9555397a7c3b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f903281b-0db3-45ff-9294-b4b25b9a8010-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/002315ff-c406-43e3-be8b-799fff7715a8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/02d6d5b3-7487-451e-9f50-633a3441a42d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/03bda1ab-7533-4778-b8ba-327a0ccfb18d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/08b38324-2f60-430e-90cc-aec52f4464b9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0e9a2b57-994f-4927-88c8-57eefcac74d8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0edb4354-164c-456c-90fa-20d96921e50b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0feed478-fbb6-4f16-87a3-9b630c577300-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/10c996af-3dcc-4a4c-9084-0b6022a9bae1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/15dd038f-9ce3-4e7b-9e75-eb5a792bad40-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/171ce1dd-a8d3-4955-b571-3f50de46611f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/191dd36d-6e0f-4753-8900-0b28781ee705-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/20007e09-c207-449c-87a7-93c6741860b1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/24017f30-fc68-474e-bffa-7a23bb78bd23-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/28eeabc0-cd50-473f-ab50-639ee5b3b324-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/28f26c0d-445b-4af8-9de3-dc711aeb50df-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/29229be4-9032-4e74-a107-5ea7a60b0d23-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2a05e248-755e-4409-a2f4-378b1f5cc587-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3004e987-149d-4a36-9ed6-1381ee1b6065-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3a05cdc5-dd86-4af2-94d2-63aee05427f8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3a3484b9-67e4-4ae2-b960-83866cd36b46-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3b45e298-a6f7-4c27-9e9b-9385f29bea55-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3c41d706-70f0-40cf-afa6-164c464210ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3c6dc7bc-4017-4e2d-b5a0-bb4185b57aed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3e6c26f7-8168-48b9-8630-23eeb9055504-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/425c90b1-86c5-49ff-99d9-aa4cf3c54ab8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4da4848a-83d6-4e2d-9ba1-ca5dfe59dbbb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4feb9d59-3a58-4eb6-bb47-85889c767e3e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/50dca552-11af-4bf0-b307-922afac18b60-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5615f239-cef0-4a05-870e-83cab01743df-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/56345bb2-c308-44bf-b039-f7f0f273cdf5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/57f919ca-c188-4f40-9616-bf0d5a7f4561-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/589793a0-996d-45ab-abf3-5520b3af3cac-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5ce6bd25-926b-407d-818a-ece8356c5401-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5e2b9305-2153-4fc7-aa77-15120a02994f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/606787d9-8864-414b-9249-40bd1197ddc7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/613ec7c3-3fbb-48bc-88ce-f3fd8b8b87ef-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/64215e98-9a54-458d-9f69-0ec94a8a587c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/65043b94-0da0-4dd5-b2fb-ed7ff46784d8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/66145c30-d313-4ba5-9a7c-f9c5e9838a2e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6829cfbd-effd-4631-aa0f-4de7c10a16a2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6cfbdc76-87b0-480d-9a0b-69b9fb7dd475-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6d248e6e-993e-464e-a3cf-b589984af748-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/710be7a3-f4be-4535-9ecc-1db8dc5a5e35-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/714bf775-bdfd-4257-92ca-aefffe66e3c3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/72d3c6df-9531-4ec7-93a7-978c4e9dda6d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/73f8cc35-8352-4753-ba42-bc7f15e3f902-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7653e6a4-3702-4f04-899d-16f6d64db8be-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/79416cf1-70d8-4f77-a0d9-13100701d226-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7a6304ff-1c16-4b75-a92f-9a809f9b54ed-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7b000d53-7d45-4955-8494-8d0d347afffe-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8314deac-750a-4721-8571-c79278a3f210-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/836164be-30b2-4d8d-960a-f830b6695b30-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/844b2342-52ed-44d8-97ce-0e1268951854-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/89768c19-aacf-4512-9b19-97413096a110-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8b0cf615-2112-47ee-a295-1176d9846372-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8cf6b4ae-dd74-4539-8a87-54f5b7527617-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8ddef7a6-ce8b-42cf-9fed-bf60ed3560d5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8f4cba60-c77f-42e0-9ff0-c25acc755b06-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/916f43fe-215a-4932-b622-b6dafe72dcd6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/94444ab4-56b4-4e4c-90f0-786a032ff9b8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/959631ec-700c-4e90-91b2-4fc11b644400-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/96b0f803-8a9a-481c-9b0b-21590f712765-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/97623b49-e0de-4845-a7da-70ba9f0398eb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9cb64456-1516-4bf9-a628-ab92f50d00d8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9fb0e2b8-1763-4bb0-a9d3-33159b304f26-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a4acee65-4b78-4bc6-a602-fc14d11e2fae-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a5a200cf-b3ee-4a70-8ad7-b3de1d5dcd00-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a62e0766-ec4e-44aa-8601-f7da8927a5b2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a66b8c6e-1f40-4df5-afb0-1579d3854497-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a71b2946-3997-45ee-9a1b-678ad8dcca6b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a9d958b3-8ad5-4eb0-bad6-9f96fadd03d5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ac7ff60f-a411-4221-9856-8ba982138a36-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ad373ea2-7622-471c-a03d-7ad53c406d62-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b0e3ee19-89c8-4c85-8c77-1b62599f3e46-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b14a4c62-3e64-4815-8d6b-60c32631e9fa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b4782cd2-c684-419c-a6ef-b566148450e0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b4e0266e-3055-4f55-95fb-cf3d86a9a778-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b54dc4e7-3a05-4c41-908e-19a909935865-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b5eeff9e-cc1e-49d1-8a97-44881a21e262-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bc957a77-0551-402d-84fa-bbea710fe2be-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bcdf1076-e6f0-4b07-bb4b-70e408e89722-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bcef63c2-f2da-4cb8-b063-014cc229f87b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c0d4d1ff-022c-4099-b99e-e32d5679d60b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c252daa6-e114-48f1-aac5-2a5667ee6863-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c8d5ad6c-5350-47b2-a232-aefb3ae11f90-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cc42c4f9-2484-41ae-85cd-d01e1a46b55c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cc93182c-ce53-4e1c-8720-47cd6478699d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cdaf5fd4-8754-4984-80e2-6c4135ac02b1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ce1ce3cd-b69a-4afe-acab-b8fd0eafd84b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ce632362-7bea-43a7-81d7-8b9a66a839b9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ce6e0aa1-9895-4563-adaf-3a1998c8d5c7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d07f24be-4583-4510-b776-e2fe19e85ad8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d28d00af-ec65-42af-b1de-a859b940a253-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d5bed1d0-68f7-4f91-86eb-4f051ba8fd36-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/dbdb7ac9-b099-4c22-8056-9164a315ea33-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/dd852dca-ec3b-48eb-9265-bc05513bd8f4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e287595a-2873-45b3-bcbc-e0c0b54bfe71-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e2b7681e-efdc-40eb-b764-07e03ec1c3a1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e52a9933-3321-4cf1-898a-3f5d2f51c93a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e799bf75-7eec-429d-9e2d-4948aa78658b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e9324986-1306-4c3a-b85d-ca71e2e5e681-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f145b866-826a-4334-8086-b89783815cfd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f50fd170-6df9-42c1-8ce4-0e69d3f26748-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f6a6b318-95f6-4001-b4cb-fe242c271f7d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f7b944d7-36ee-4bf3-b9ba-253bfdeb4811-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f84325cb-00dc-4e2f-87d2-8a4e2197e0ae-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fe1920fd-280a-474f-b82f-ed63bf420a6b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ff2e262f-7f07-4ccd-a8ad-108ec9f22746-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/spotify/oauth2/tests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/PlaylistTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/StatusCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/PlaylistTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,12 +35,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4475e1a8-ff7c-4208-a2f5-016b81f858c0" />
+        <option name="url" value="https://github.com/taygunkara/spotify-rest-assured.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -154,20 +74,48 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/taygun/IdeaProjects/spotify-rest-assured-practice",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithExpiredToken">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.spotify.oauth2.api.applicationApi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spotify.oauth2.api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.PlaylistTests">
+    <configuration name="PlaylistTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="spotify-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.PlaylistTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlaylistTests.ShouldBeAbleToCreateAPlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="spotify-rest-assured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
-      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.PlaylistTests" />
       <option name="METHOD_NAME" value="ShouldBeAbleToCreateAPlaylist" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -180,12 +128,12 @@
       <module name="spotify-rest-assured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
-      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.PlaylistTests" />
       <option name="METHOD_NAME" value="ShouldBeAbleToGetPlaylist" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -198,12 +146,12 @@
       <module name="spotify-rest-assured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
-      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.PlaylistTests" />
       <option name="METHOD_NAME" value="ShouldBeAbleToUpdate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -216,31 +164,13 @@
       <module name="spotify-rest-assured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
-      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.PlaylistTests" />
       <option name="METHOD_NAME" value="ShouldNotBeAbleToCreateAPlaylistWithExpiredToken" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="spotify-rest-assured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spotify.oauth2.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
-      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
-      <option name="METHOD_NAME" value="ShouldNotBeAbleToCreateAPlaylistWithName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -250,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithExpiredToken" />
-        <item itemvalue="TestNG.PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithName" />
+        <item itemvalue="TestNG.PlaylistTests" />
+        <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToCreateAPlaylist" />
         <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToUpdate" />
         <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToGetPlaylist" />
-        <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToCreateAPlaylist" />
+        <item itemvalue="TestNG.PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithExpiredToken" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +225,147 @@
       <option name="project" value="LOCAL" />
       <updated>1683635706669</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Models-Pojo">
+      <created>1683638535857</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683638535857</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update Models-Pojo">
+      <created>1683651058425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683651058425</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Builder patterns with pojo">
+      <created>1683701136188</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683701136188</updated>
+    </task>
+    <task id="LOCAL-00008" summary="SpecBuilder">
+      <created>1683703810828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683703810828</updated>
+    </task>
+    <task id="LOCAL-00009" summary="PlaylistApi - Reusable Methods">
+      <created>1683715840161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683715840161</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Reusable Methods">
+      <created>1683819592552</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683819592552</updated>
+    </task>
+    <task id="LOCAL-00011" summary="TokenManager">
+      <created>1683877541250</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683877541250</updated>
+    </task>
+    <task id="LOCAL-00012" summary="reusable methods for token manager">
+      <created>1683977268889</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683977268889</updated>
+    </task>
+    <task id="LOCAL-00013" summary="reusable methods for specbuilder">
+      <created>1683977553292</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683977553293</updated>
+    </task>
+    <task id="LOCAL-00014" summary="README.md update">
+      <created>1683978094553</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683978094554</updated>
+    </task>
+    <task id="LOCAL-00015" summary="routes">
+      <created>1683979161794</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683979161794</updated>
+    </task>
+    <task id="LOCAL-00016" summary="property loader, config loader, singleton design pattern">
+      <created>1683985756690</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683985756690</updated>
+    </task>
+    <task id="LOCAL-00017" summary="data loader">
+      <created>1684050392320</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684050392320</updated>
+    </task>
+    <task id="LOCAL-00018" summary="optimize code">
+      <created>1684051979258</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684051979258</updated>
+    </task>
+    <task id="LOCAL-00019" summary="optimize code">
+      <created>1684073312550</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684073312550</updated>
+    </task>
+    <task id="LOCAL-00020" summary="java faker">
+      <created>1684132350381</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684132350381</updated>
+    </task>
+    <task id="LOCAL-00021" summary="java enum to store status code">
+      <created>1684134449908</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684134449908</updated>
+    </task>
+    <task id="LOCAL-00022" summary="README update">
+      <created>1684134532043</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684134532043</updated>
+    </task>
+    <task id="LOCAL-00023" summary="README update">
+      <created>1684136370381</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684136370381</updated>
+    </task>
+    <task id="LOCAL-00024" summary="README update">
+      <created>1684136446531</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684136446531</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -304,6 +374,23 @@
     <MESSAGE value="ShouldBeAbleToGetPlaylist" />
     <MESSAGE value="ShouldBeAbleToUpdate" />
     <MESSAGE value="Negative Scenarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Negative Scenarios" />
+    <MESSAGE value="Models-Pojo" />
+    <MESSAGE value="Update Models-Pojo" />
+    <MESSAGE value="Builder patterns with pojo" />
+    <MESSAGE value="SpecBuilder" />
+    <MESSAGE value="PlaylistApi - Reusable Methods" />
+    <MESSAGE value="Reusable Methods" />
+    <MESSAGE value="TokenManager" />
+    <MESSAGE value="reusable methods for token manager" />
+    <MESSAGE value="reusable methods for specbuilder" />
+    <MESSAGE value="README.md update" />
+    <MESSAGE value="routes" />
+    <MESSAGE value="property loader, config loader, singleton design pattern" />
+    <MESSAGE value="data loader" />
+    <MESSAGE value="optimize code" />
+    <MESSAGE value="java faker" />
+    <MESSAGE value="java enum to store status code" />
+    <MESSAGE value="README update" />
+    <option name="LAST_COMMIT_MESSAGE" value="README update" />
   </component>
 </project>

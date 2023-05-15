@@ -1,6 +1,15 @@
 ## spotify-rest-assured
 
 ---
+
+
+
+for allure report run the command:
+```
+allure serve
+```
+
+
 <details>
   <summary>Project Structure</summary>
 
@@ -69,7 +78,7 @@
   - [x] config loader - singleton design pattern
   - [x] data loader - singleton design pattern
 - [ ] lombok
-- [ ] allure reporting
+- [x] allure reporting
 - [ ] maven command
 - [x] java faker
 - [x] java enum for status codes
