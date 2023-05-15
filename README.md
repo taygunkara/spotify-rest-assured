@@ -23,7 +23,7 @@
 - [ ] lombok
 - [ ] allure reporting
 - [ ] maven command
-- [ ] java faker
+- [x] java faker
+- [x] java enum for status codes
 - [ ] parallel execution
-- [ ] property loader utility
 - [ ] Cl integration
