@@ -50,6 +50,8 @@
 <details>
   <summary>To Do List</summary>
 
+---
+
 - [x] spec builder
 - [x] positive playlist scenarios
   - [x] should be able to create a playlist
