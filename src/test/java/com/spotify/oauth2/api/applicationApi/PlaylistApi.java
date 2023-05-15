@@ -3,14 +3,13 @@ package com.spotify.oauth2.api.applicationApi;
 import com.spotify.oauth2.api.RestResource;
 import com.spotify.oauth2.models.Playlist;
 import com.spotify.oauth2.utils.ConfigLoader;
+import io.qameta.allure.Step;
 import io.restassured.response.Response;
 
 import static com.spotify.oauth2.api.Route.*;
 
 
 public class PlaylistApi {
-
-
     public Response post(Playlist requestPlaylist, String token){
         return RestResource.post(USERS +  "/" + ConfigLoader.getInstance().getUserID() + PLAYLISTS, token, requestPlaylist);
     }

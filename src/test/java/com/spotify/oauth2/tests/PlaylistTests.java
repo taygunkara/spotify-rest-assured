@@ -12,13 +12,18 @@ import com.spotify.oauth2.utils.ConfigLoader;
 import com.spotify.oauth2.utils.DataLoader;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
+@Epic("Spotify Oauth 2.0")
+@Feature("Playlist API")
 public class PlaylistTests {
-
+    @Story("Create a playlist story")
     @Description("should be able to create a playlist")
-    @Test(description = "Create A Playlist Test")
+    @Test(description = "Create A Playlist")
     public void ShouldBeAbleToCreateAPlaylist(){
         Playlist requestPlaylist = playlistBuilder(generatePlaylistName(), generatePlaylistDescription(), false);
         Response response = new PlaylistApi().post(requestPlaylist, RenewToken());
@@ -27,7 +32,7 @@ public class PlaylistTests {
         assertPlaylistEqual(responsePlaylist, requestPlaylist);
     }
     @Description("should be able to get a playlist")
-    @Test(description = "Get A Playlist Test")
+    @Test(description = "Get A Playlist")
     public void ShouldBeAbleToGetPlaylist(){
         Playlist requestPlaylist = playlistBuilder("New Playlist", "New playlist description", false);
         Response response = new PlaylistApi().get(DataLoader.getInstance().getGetPlaylistID(), RenewToken());
@@ -36,12 +41,13 @@ public class PlaylistTests {
         assertPlaylistEqual(responsePlaylist, requestPlaylist);
     }
     @Description("should be able to update a playlist")
-    @Test(description = "Update Playlist Test")
+    @Test(description = "Update A Playlist")
     public void ShouldBeAbleToUpdate(){
         Playlist requestPlaylist = playlistBuilder(generatePlaylistName(), generatePlaylistDescription(), false);
         Response response = new PlaylistApi().update(requestPlaylist, DataLoader.getInstance().getUpdatePlaylistID(), RenewToken());
         assertStatusCode(response, StatusCode.CODE_200);
     }
+    @Story("Create a playlist story")
     @Description("should NOT be able to create a playlist with missing name information")
     @Test(description = "(NEGATIVE) Create A Playlist With Missing Informations")
     public void ShouldNotBeAbleToCreateAPlaylistWithName(){
@@ -51,6 +57,7 @@ public class PlaylistTests {
         Error error = response.as(Error.class);
         assertError(error, StatusCode.CODE_400);
     }
+    @Story("Create a playlist story")
     @Description("should NOT able to create a playlist with expired token")
     @Test(description = "(NEGATIVE) Create A Playlist With Expired Token")
     public void ShouldNotBeAbleToCreateAPlaylistWithExpiredToken(){

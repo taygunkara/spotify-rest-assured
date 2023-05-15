@@ -2,14 +2,6 @@
 
 ---
 
-
-
-for allure report run the command:
-```
-allure serve
-```
-
-
 <details>
   <summary>Project Structure</summary>
 

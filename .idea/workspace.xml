@@ -4,27 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="073918e7-7ee7-48ed-8f37-502686c5ddc7" name="Changes" comment="README update">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/17f60ae2-622e-4a37-ad25-01991ae14d67-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1dc76664-a03a-4751-a17e-b922cbdc7ce2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/28ad01cd-a9c1-4c3f-be7a-be34dcc2f0f4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/30b310e7-765a-47cb-b183-04bcffe921c9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/64b05200-5038-463a-870e-3cdb8386967b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/662fb17a-5b3b-458c-a34d-34b5cc11559b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/81e00180-3b42-495d-a354-7645c49d51bd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8fc03a50-5057-4143-ae06-6ec5609e4951-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9dfa2564-345e-4754-acc3-a73334411749-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a3c4304f-e203-41a5-9c83-09cdecd4dcbc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a698c93b-c8d0-4d5c-8354-405e5e15d74f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c789242b-8bd9-40c7-a877-ca5d7a762044-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cc5df640-2f55-48f8-9a84-52c17d22cf64-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d720e99a-7bc7-437a-bbae-ddf4b224047c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e2a3ee89-5bd2-48b3-9d05-9555397a7c3b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f903281b-0db3-45ff-9294-b4b25b9a8010-container.json" afterDir="false" />
+    <list default="true" id="073918e7-7ee7-48ed-8f37-502686c5ddc7" name="Changes" comment="allure-report">
+      <change afterPath="$PROJECT_DIR$/allure-results/05bf2b3c-1bac-4c03-a2c0-64538e913d27-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1b0d31ad-81f5-4f80-a28e-9c02feb0eca4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/284a9f08-2465-4ec5-ba05-b897c12cd318-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3b7f8a3a-37f0-41c6-82ac-48e574e300ca-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6122dd09-bb93-4989-9983-6545d9ba9b5a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/69ba277e-eb1b-41df-90c8-6b2734ecd83c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/756d9226-a4b2-4896-82f7-f016d2c19270-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/94d11e48-501c-419b-a2bb-1f40b2a148c7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c67915c8-b738-4c04-981a-f5fe51bc793c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d7d2035b-9416-4c37-bd05-62ef255785b7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e1285fc3-3148-463e-96bc-64fc42620f37-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/eb36dcba-a4a9-41af-b668-4196f4da665a-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/StatusCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/PlaylistApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/PlaylistApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/PlaylistHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/PlaylistHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/PlaylistTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -365,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684136446531</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="allure-report">
+      <created>1684148563904</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684148563904</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -391,6 +394,7 @@
     <MESSAGE value="java faker" />
     <MESSAGE value="java enum to store status code" />
     <MESSAGE value="README update" />
-    <option name="LAST_COMMIT_MESSAGE" value="README update" />
+    <MESSAGE value="allure-report" />
+    <option name="LAST_COMMIT_MESSAGE" value="allure-report" />
   </component>
 </project>
