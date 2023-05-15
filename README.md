@@ -3,7 +3,7 @@
 This is a project API Test Automation with Spotify API using RestAssured, TestNG and Allure Report.  
 
 I have selected 3 positive, 2 negative test cases for Playlist. The variables are located in the `src/test/resources` folder. You should create a Spotify application for your own project and fill in the necessary information.
-_Since the application is closed, the run without correcting the information will give an error._ You can see the steps I followed while creating the project and the project structure at the bottom.
+_Since the application is closed, the run without correcting the information will give an error._ You can see the steps I followed while creating the project and the project structure at the bottom. 
 
 <details>
   <summary>You should change the following in the "config.properties":</summary>
@@ -129,7 +129,7 @@ allure serve
 - [x] allure reporting
 - [x] java faker
 - [x] java enum for status codes
-- [ ] parallel execution
-- [ ] Cl integration
+- [ ] ~~parallel execution~~
+- [ ] ~~Cl integration~~
 
 </details>
