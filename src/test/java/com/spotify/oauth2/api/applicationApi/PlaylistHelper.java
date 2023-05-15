@@ -1,5 +1,6 @@
 package com.spotify.oauth2.api.applicationApi;
 
+import com.spotify.oauth2.api.StatusCode;
 import com.spotify.oauth2.models.Error;
 import com.spotify.oauth2.models.Playlist;
 import io.restassured.response.Response;
@@ -22,13 +23,13 @@ public class PlaylistHelper {
         assertThat(responsePlaylist.getPublic(), equalTo(requestPlaylist.getPublic()));
     }
 
-    public static void assertStatusCode(Response response, int expectedStatusCode){
-        assertThat(response.statusCode(), equalTo(expectedStatusCode));
+    public static void assertStatusCode(Response response, StatusCode statusCode){
+        assertThat(response.statusCode(), equalTo(statusCode.code));
     }
 
-    public static void assertError(Error responseErr, int expectedStatus, String msg){
-        assertThat(responseErr.getError().getStatus(), equalTo(expectedStatus));
-        assertThat(responseErr.getError().getMessage(), equalTo(msg));
+    public static void assertError(Error responseErr, StatusCode statusCode){
+        assertThat(responseErr.getError().getStatus(), equalTo(statusCode.code));
+        assertThat(responseErr.getError().getMessage(), equalTo(statusCode.msg));
     }
 
 }
