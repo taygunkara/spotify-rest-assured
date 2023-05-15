@@ -1,5 +1,61 @@
 ## spotify-rest-assured
 
+This is a project API Test Automation with Spotify API using RestAssured, TestNG and Allure Report.  
+
+I have selected 3 positive, 2 negative test cases for Playlist. The variables are located in the `src/test/resources` folder. You should create a Spotify application for your own project and fill in the necessary information.
+_Since the application is closed, the run without correcting the information will give an error._ You can see the steps I followed while creating the project and the project structure at the bottom.
+
+<details>
+  <summary>You should change the following in the "config.properties":</summary>
+
+```
+client_id=
+client_secret=
+refresh_token=
+user_id=
+```
+</details>
+
+<details>
+  <summary>You should change the following in the "data.properties":</summary>
+
+```
+update_playlist_id=
+get_playlist_id=
+```
+
+</details>
+
+---
+
+
+#### Prerequisites
+
+What you need to install on the system:
+- Java
+- Maven
+- Allure
+
+#### Used Maven Libraries
+
+- javafaker
+- allure-rest-assured
+- allure-testng
+- jsonassert
+- jackson-databind
+- testng
+- rest-assured
+
+#### Usage
+```
+mvn clean test
+```
+
+#### Report
+```
+allure serve
+```
+
 ---
 
 <details>
@@ -69,9 +125,8 @@
   - [x] property loader utility
   - [x] config loader - singleton design pattern
   - [x] data loader - singleton design pattern
-- [ ] lombok
+- [ ] ~~lombok~~
 - [x] allure reporting
-- [ ] maven command
 - [x] java faker
 - [x] java enum for status codes
 - [ ] parallel execution
