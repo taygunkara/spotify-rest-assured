@@ -1,5 +1,7 @@
 # Spotify API Test Automation Framework
 
+[Project Article](https://taygunkara.github.io/pages/projects/spotify-api-test-projesi.html)
+
 This project provides a comprehensive API test automation framework for the Spotify API, utilizing Rest Assured, TestNG, and Allure for reporting. It's built on a layered architecture that promotes clean code and maintainability.
 
 ### Key Architectural Features
